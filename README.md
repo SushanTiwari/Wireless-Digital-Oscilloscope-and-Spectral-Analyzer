@@ -7,3 +7,5 @@ The system consists of LCD, Bluetooth Module, PIC24FV16KM202 microcontroller, an
 ![schematics](final_schematics.jpg)
 
 ![block diagram](final_flow.jpg)
+
+![gui interface] (final_gui.JPG)
