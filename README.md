@@ -1,5 +1,5 @@
 # Wireless-Digital-Oscilloscope-and-Spectral-Analyzer
- Designed a wireless digital oscilloscope and spectral analyzer using PIC24FV16KM202, Bluetooth, and C# GUI. 
+Disclamer: This project is done as Final project for ECE 422- Microcontroller System Design @ St.Cloud State University in Fall 2019.
  
 This project is able to digitize analog signal and plot time domain signal and frequency domain signal in custom developed GUI on PC. It  provides important information about the signal and allow users to control the digitization process with various controls. Digitization occurs only when requested by user and can be stopped as per user request. When user starts the sampling process, GUI sends a signal to PIC to start digitization of samples. After receiving signal from GUI, PIC scans for trigger value and starts to collect the samples in a buffer. After collecting 200 samples, PIC sends data to GUI and then GUI stores all the samples into a buffer which is then used to calculate DFT magnitude and phase. After DFT calculation all the samples are plotted into a graph panel on GUI and the sampling process restarts again until user requests the system to stop sampling. 
 
